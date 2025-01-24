@@ -4,7 +4,6 @@ import {Redirect} from 'react-router-dom'
 
 import './index.css'
 
-
 class LoginPage extends Component {
   state = {
     username: '',
@@ -40,7 +39,6 @@ class LoginPage extends Component {
     const userDetails = {username: 'surya', password: 'surya@2024'}
     const url = 'https://dummyjson.com/c/6cbf-e4f3-4fa4-82ca'
 
-    
     //https://jsonplaceholder.typicode.com/posts
 
     const options = {
@@ -61,16 +59,16 @@ class LoginPage extends Component {
 
     return (
       <>
-        <label className="input-label" htmlFor="password">
+        <label className='input-label' htmlFor='password'>
           PASSWORD
         </label>
         <input
-          type="password"
-          id="password"
-          className="password-input-field"
+          type='password'
+          id='password'
+          className='password-input-field'
           value={password}
           onChange={this.onChangePassword}
-          placeholder="Password"
+          placeholder='Password'
         />
       </>
     )
@@ -81,16 +79,16 @@ class LoginPage extends Component {
 
     return (
       <>
-        <label className="input-label" htmlFor="username">
+        <label className='input-label' htmlFor='username'>
           USERNAME
         </label>
         <input
-          type="text"
-          id="username"
-          className="username-input-field"
+          type='text'
+          id='username'
+          className='username-input-field'
           value={username}
           onChange={this.onChangeUsername}
-          placeholder="Username"
+          placeholder='Username'
         />
       </>
     )
@@ -100,29 +98,29 @@ class LoginPage extends Component {
     const {showSubmitError, errorMsg} = this.state
     const jwtToken = Cookies.get('jwt_token')
     if (jwtToken !== undefined) {
-      return <Redirect to="/" />
+      return <Redirect to='/' />
     }
 
     return (
-      <div className="login-form-container">
+      <div className='login-form-container'>
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzz-Clbxd_HVzN4D6lnQZbRvo3ujaKc9Yd3g&s"
-          className="login-website-logo-mobile-img"
-          alt="website logo"
+          src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzz-Clbxd_HVzN4D6lnQZbRvo3ujaKc9Yd3g&s'
+          className='login-website-logo-mobile-img'
+          alt='website logo'
         />
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzz-Clbxd_HVzN4D6lnQZbRvo3ujaKc9Yd3g&s"
-          className="login-img"
-          alt="website login"
+          src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzz-Clbxd_HVzN4D6lnQZbRvo3ujaKc9Yd3g&s'
+          className='login-img'
+          alt='website login'
         />
-        <form className="form-container" onSubmit={this.submitForm}>
-          <h1 className="logo-heading">LOGIN PAGE</h1>
-          <div className="input-container">{this.renderUsernameField()}</div>
-          <div className="input-container">{this.renderPasswordField()}</div>
-          <button type="submit" className="login-button">
+        <form className='form-container' onSubmit={this.submitForm}>
+          <h1 className='logo-heading'>LOGIN PAGE</h1>
+          <div className='input-container'>{this.renderUsernameField()}</div>
+          <div className='input-container'>{this.renderPasswordField()}</div>
+          <button type='submit' className='login-button'>
             Login
           </button>
-          {showSubmitError && <p className="error-message">*{errorMsg}</p>}
+          {showSubmitError && <p className='error-message'>*{errorMsg}</p>}
         </form>
       </div>
     )
