@@ -1,0 +1,53 @@
+.main-container {
+  background-color: black;
+  height: 40%;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+.footer-container-first {
+  color: white;
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.button-sub {
+  background-color: transparent;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  border-color: white;
+  border-radius: 10px;
+}
+.main-container-sub-one {
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright {
+  text-align: center;
+  color: white;
+}
+
+.instagram-icon {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 10px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.insta-link-container {
+  display: flex;
+  padding: 5px;
+}
+.gpay-image {
+  width: 20px;
+  height: 16px;
+  margin: 5px;
+}

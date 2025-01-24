@@ -1,0 +1,42 @@
+.filter-containerr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.recomman-icon {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  cursor: pointer;
+  position: relative;
+}
+
+.ulorder-recomand {
+  position: absolute;
+  top: 80%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  margin-top: 0px;
+  z-index: 500;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.ulorder-recomand li {
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.ulorder-recomand li:hover {
+  background-color: #f0f0f0;
+}
+.recomd-button{
+  cursor: pointer;
+}
