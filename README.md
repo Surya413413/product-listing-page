@@ -1,117 +1,99 @@
 Write the objective of the assignment yourself
 
-this a live project link https://product413.ccbp.tech/login
+# Live project Link
+ link https://product413.ccbp.tech/login
 
-### Refer to the image below:
+# Title 
+ReactJs Assignment: Implementing a Product Listing Page
 
-Add UI reference image yourself
+# Objective 
+Create a responsive e-commerce product grid using ReactJS. The layout should adapt to different screen sizes, as shown in the reference design
 
-<div style="text-align: center;">
-     <!-- <img src="remove this text and add the image URL" alt="ui"> -->
-</div>
-<br/>
+# Tech Stack
+use ReactJS, React Router, API, CSS OR CSS framework, Git, and GitHub for hosting the respository
 
-### Design Files
+# Completion Instructions
 
-<details>
-<summary>Add Route Name</summary>
-<br/>
-Add the design files according to the route (if any) and responsiveness
+### Functionlity
+#### Must Have 
+* Build a ReactJS appliction with multiple pages/components, including Home page, login page, product page, filter page.
+* Implement feature such as filter, search, icons, recomandations
 
-<!-- - [Extra Small (Size < 576px) and Small (Size >= 576px)](remove this text and add the image URL here)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](remove this text and add the image URL here) -->
+Pages
+    page: Login page
+    page Details:
+               In login page there be a logo of product and userinput and password input and one submit button.
+               
+     Navigation:
+     
+     page: Home Page
+     page Details:
+           Header:links for pages Home, product page, cart page, about page.
+           Banner:Heading, description and fine product button.
+           footer: A footer is a component typically used at the bottom of a webpage or app to display supplementary information like links, copyright, or navigation.
+           
+     page: Product page
+     page Details:
+             Header: links for pages Home, product page, cart page, about page.
+             product Details: product Info(title, image, description, price, rating)
+             footer: A footer is a component typically used at the bottom of a webpage or app to display supplementary information like links, copyright, or navigation.
 
-</details>
+### Nice to Have
+* implement user Autentication
 
-### Set Up Instructions
+### Guideline to develop a project
+### Must Have
+* use GitHub
+         * Commit code regularly and commit message should be clear
+         * Include a README file explaining the project setup, usage instruction, and any addtional info.
+         * The repo should be well organized and easy to read.
+         * The code should be clean, modular and well-structed
+  *The application should be visually appealing and user friendly.
+  * The application should handle all the errors.
+### Nice to Have
+* Implement unit tests
 
-<details>
-<summary>Click to view</summary>
+### Submission Instructions
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
+### Must have
+* Github Repository
 
-</details>
+### Nice to Have
+* Deploy the application on a hosting platform
 
-### Assignment Completion Instructions
+### Routes 
+|pages      |Route    |path    |
+|-----------|---------|--------|
+|login      | login   |/login  |
+|-----------|---------|--------|
+|home       | home    |  /     |
+|-----------|---------|--------|
+|product    | product |/product|
+|-----------|---------|--------|
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
+## Resources 
+### Design files
+Login, Home, Product Details
+Reference: Figma 
+link : https://www.figma.com/file/N0Tv7yYLf3kfMLQjUncUlx/Design-Task---PLP?type=design&node-id=0-1&mode=design&t=mEpvVYQ7GInQPxXk-0
 
-The app must have the following functionalities:
+### APIs 
+Login, home, product details.
+Api reference: integrate the front-end content with a mock API, such as FakeStoreAPI.
 
-- Add all the functionalities to be achieved(according to the route, if any) yourself
+### Third-party package
+Icons (react-icons)
+Loader (react-loader-spinner)
 
-</details>
 
-### Assignment Completion Checklist
+  
+          
+     
+             
+             
+           
+           
 
-<details>
-<summary>Click to view</summary>
 
-- **Along with the below points, add your checklist specific to the assignment**
 
-- Read the instructions given in the assignment carefully and list down the **Assignment Completion Checklist** for the assignment and start working on it
-- The completion Checklist includes the below-mentioned points
-  - I have completed all the functionalities asked in the assignment
-  - I have used only the resources (Frameworks, Design files, APIs, third-party packages) mentioned in the assignment
-  - I have modified the README.md file based on my assignment instructions
-  - I have completed the assignment **ON TIME**
-- **Note:**
-  - Ensure that you have marked all the checklist points in your completion checklist before submitting the assignment
-  </details>
 
-### Quick Tips
-
-<details>
-<summary>Click to view</summary>
-<br>
-
-- Add third-party packages list yourself
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-<br/>
-
-- Add any important note here, like user credentials for authentication.
-
-</details>
-
-### Resources
-
-<details>
-<summary>Data Fetch URLs</summary>
-<br/>
-
-- Add the URLs list to fetch the data yourself
-
-</details>
-
-<details>
-<summary>Image URLs</summary>
-<br/>
-
-- Add the list of all image URLs needed in the assignment yourself.
-
-</details>
-
-<details>
-<summary>Colors</summary>
-<br/>
-
-Add the text and background colours to be used in the assignment yourself.
-
-<!-- <div style="background-color: #3b82f6; width: 150px; padding: 10px; color: white">Hex: #3b82f6</div> -->
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Add the font-families to be used in the assignment yourself.
-
-</details>
