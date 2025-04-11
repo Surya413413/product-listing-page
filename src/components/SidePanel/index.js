@@ -35,7 +35,7 @@ const SidePanel = () => {
           <div className="icon-name">
             <h1>IDEAL FOR</h1>
 
-            <FaChevronDown onClick={onclickIdeal} className="icon-button"/>
+            <FaChevronDown onClick={onclickIdeal} className="icon-button" />
           </div>
           <p>all</p>
           {isDropdownVisible && (

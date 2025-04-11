@@ -1,10 +1,10 @@
 import {Link, withRouter} from 'react-router-dom'
 import Cookies from 'js-cookie'
 
-import {FaSearch} from 'react-icons/fa'
-import {FaRegHeart} from 'react-icons/fa'
+// import {FaSearch} from 'react-icons/fa'
+import {FaRegHeart, FaSearch, FaShoppingBag} from 'react-icons/fa'
 import {IoBagCheckOutline} from 'react-icons/io5'
-import {FaShoppingBag} from 'react-icons/fa'
+// import {FaShoppingBag} from 'react-icons/fa'
 
 import './index.css'
 

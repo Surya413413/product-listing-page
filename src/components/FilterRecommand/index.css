@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   gap: 1px;
-  cursor: pointer;
+  
   position: relative;
 }
 
@@ -37,6 +37,24 @@
 .ulorder-recomand li:hover {
   background-color: #f0f0f0;
 }
-.recomd-button{
+.recomd-button {
   cursor: pointer;
+}
+
+.products-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sidepanal-items-container {
+  display: flex;
+}
+.sidepanelhide{
+  cursor: pointer;
+  color: balck;
+}
+.sidepanelshow{
+  cursor: pointer;
+  color: blue;
 }

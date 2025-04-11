@@ -100,9 +100,9 @@ class Product extends Component {
           </p>
 
           <div className="filter-container">
-            <FilterRecommand />
+            <FilterRecommand products={productList} />
           </div>
-          <div className="sidepanal-items-container">
+          {/* <div className="sidepanal-items-container">
             <div>
               <SidePanel />
             </div>
@@ -111,8 +111,8 @@ class Product extends Component {
               {productList.map(each => (
                 <ProductListDetails productDetails={each} key={each.id} />
               ))}
-            </ul>
-          </div>
+            </ul> 
+          </div> */}
         </div>
         <FooterPage />
       </>

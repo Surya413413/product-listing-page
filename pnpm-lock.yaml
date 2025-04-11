@@ -416,8 +416,8 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-sR4eaSrnM7BV7QPzGfEX5paG/6wrZM3I0HDzfIAK06ESvo9oy3xBuVBxE3MbQaKNhvg8g/ixjMWo2CGpzpHsDA==
-  /@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/7.16.7_@babel+core@7.12.3:
-    dependencies:
+  ? /@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/7.16.7_@babel+core@7.12.3
+  : dependencies:
       '@babel/core': 7.12.3
       '@babel/helper-plugin-utils': 7.16.7
     dev: true
@@ -427,8 +427,8 @@ packages:
       '@babel/core': ^7.0.0
     resolution:
       integrity: sha512-anv/DObl7waiGEnC24O9zqL0pSuI9hljihqiDuFHC8d7/bjr/4RLGPWuc8rYOff/QPzbEPSkzG8wGG9aDuhHRg==
-  /@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/7.16.7_@babel+core@7.16.7:
-    dependencies:
+  ? /@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/7.16.7_@babel+core@7.16.7
+  : dependencies:
       '@babel/core': 7.16.7
       '@babel/helper-plugin-utils': 7.16.7
     dev: true
@@ -438,8 +438,8 @@ packages:
       '@babel/core': ^7.0.0
     resolution:
       integrity: sha512-anv/DObl7waiGEnC24O9zqL0pSuI9hljihqiDuFHC8d7/bjr/4RLGPWuc8rYOff/QPzbEPSkzG8wGG9aDuhHRg==
-  /@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/7.16.7_@babel+core@7.12.3:
-    dependencies:
+  ? /@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/7.16.7_@babel+core@7.12.3
+  : dependencies:
       '@babel/core': 7.12.3
       '@babel/helper-plugin-utils': 7.16.7
       '@babel/helper-skip-transparent-expression-wrappers': 7.16.0
@@ -451,8 +451,8 @@ packages:
       '@babel/core': ^7.13.0
     resolution:
       integrity: sha512-di8vUHRdf+4aJ7ltXhaDbPoszdkh59AQtJM5soLsuHpQJdFQZOA4uGj0V2u/CZ8bJ/u8ULDL5yq6FO/bCXnKHw==
-  /@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/7.16.7_@babel+core@7.16.7:
-    dependencies:
+  ? /@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/7.16.7_@babel+core@7.16.7
+  : dependencies:
       '@babel/core': 7.16.7
       '@babel/helper-plugin-utils': 7.16.7
       '@babel/helper-skip-transparent-expression-wrappers': 7.16.0
@@ -625,8 +625,8 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-lNZ3EEggsGY78JavgbHsK9u5P3pQaW7k4axlgFLYkMd7UBsiNahCITShLjNQschPyjtO6dADrL24757IdhBrsQ==
-  /@babel/plugin-proposal-logical-assignment-operators/7.16.7_@babel+core@7.12.3:
-    dependencies:
+  ? /@babel/plugin-proposal-logical-assignment-operators/7.16.7_@babel+core@7.12.3
+  : dependencies:
       '@babel/core': 7.12.3
       '@babel/helper-plugin-utils': 7.16.7
       '@babel/plugin-syntax-logical-assignment-operators': 7.10.4_@babel+core@7.12.3
@@ -637,8 +637,8 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-K3XzyZJGQCr00+EtYtrDjmwX7o7PLK6U9bi1nCwkQioRFVUv6dJoxbQjtWVtP+bCPy82bONBKG8NPyQ4+i6yjg==
-  /@babel/plugin-proposal-logical-assignment-operators/7.16.7_@babel+core@7.16.7:
-    dependencies:
+  ? /@babel/plugin-proposal-logical-assignment-operators/7.16.7_@babel+core@7.16.7
+  : dependencies:
       '@babel/core': 7.16.7
       '@babel/helper-plugin-utils': 7.16.7
       '@babel/plugin-syntax-logical-assignment-operators': 7.10.4_@babel+core@7.16.7
@@ -1662,8 +1662,8 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-EMh7uolsC8O4xhudF2F6wedbSHm1HHZ0C6aJ7K67zcDNidMzVcxWdGr+htW9n21klm+bOn+Rx4CBsAntZd3rEQ==
-  /@babel/plugin-transform-named-capturing-groups-regex/7.16.7_@babel+core@7.12.3:
-    dependencies:
+  ? /@babel/plugin-transform-named-capturing-groups-regex/7.16.7_@babel+core@7.12.3
+  : dependencies:
       '@babel/core': 7.12.3
       '@babel/helper-create-regexp-features-plugin': 7.16.7_@babel+core@7.12.3
     dev: true
@@ -1673,8 +1673,8 @@ packages:
       '@babel/core': ^7.0.0
     resolution:
       integrity: sha512-kFy35VwmwIQwCjwrAQhl3+c/kr292i4KdLPKp5lPH03Ltc51qnFlIADoyPxc/6Naz3ok3WdYKg+KK6AH+D4utg==
-  /@babel/plugin-transform-named-capturing-groups-regex/7.16.7_@babel+core@7.16.7:
-    dependencies:
+  ? /@babel/plugin-transform-named-capturing-groups-regex/7.16.7_@babel+core@7.16.7
+  : dependencies:
       '@babel/core': 7.16.7
       '@babel/helper-create-regexp-features-plugin': 7.16.7_@babel+core@7.16.7
     dev: true
@@ -2454,12 +2454,14 @@ packages:
     resolution:
       integrity: sha512-QD1PhQk+s31P1ixsX0H0Suoupp3VMXzIVMSwobR3F3MSUO2YCV0B7xqLcUw/Bh8yuvd3LhpyqLQWTNcRmp6IdQ==
   /@hapi/bourne/1.3.2:
-    deprecated: This version has been deprecated and is no longer supported or maintained
+    deprecated:
+      This version has been deprecated and is no longer supported or maintained
     dev: true
     resolution:
       integrity: sha512-1dVNHT76Uu5N3eJNTYcvxee+jzX4Z9lfciqRRHCU27ihbUcYi+iSc2iml5Ke1LXe1SyJCLA0+14Jh4tXJgOppA==
   /@hapi/hoek/8.5.1:
-    deprecated: This version has been deprecated and is no longer supported or maintained
+    deprecated:
+      This version has been deprecated and is no longer supported or maintained
     dev: true
     resolution:
       integrity: sha512-yN7kbciD87WzLGc5539Tn0sApjyiGHAJgKvG9W8C7O+6c7qmoQMfVs0W4bX17eqz6C78QJqqFrtgdK5EWf6Qow==
@@ -2476,7 +2478,8 @@ packages:
   /@hapi/topo/3.1.6:
     dependencies:
       '@hapi/hoek': 8.5.1
-    deprecated: This version has been deprecated and is no longer supported or maintained
+    deprecated:
+      This version has been deprecated and is no longer supported or maintained
     dev: true
     resolution:
       integrity: sha512-tAag0jEcjwH+P2quUfipd7liWCNX2F8NvYjQp2wtInsZxnMlypdw0FtAOLxtvvkO+GSRRbmNi8m/5y42PQJYCQ==
@@ -3883,7 +3886,9 @@ packages:
       eslint: 7.32.0
       eslint-visitor-keys: 1.3.0
       resolve: 1.18.1
-    deprecated: babel-eslint is now @babel/eslint-parser. This package will no longer receive updates.
+    deprecated:
+      babel-eslint is now @babel/eslint-parser. This package will no longer
+      receive updates.
     dev: true
     engines:
       node: '>=6'
@@ -4637,7 +4642,9 @@ packages:
       path-is-absolute: 1.0.1
       readdirp: 2.2.1
       upath: 1.2.0
-    deprecated: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+    deprecated:
+      Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less
+      dependencies.
     dev: true
     optionalDependencies:
       fsevents: 1.2.13
@@ -4988,7 +4995,12 @@ packages:
     resolution:
       integrity: sha512-CmWHvSKn2vNL6p6StNp1EmMIfVY/pqn3JLAjfZQ8WZGPOlGoO92EkX9/Mk81i6GxvoPXjUqEQnpM3rJ5QxxIOg==
   /core-js/2.6.12:
-    deprecated: core-js@<3.4 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
+    deprecated:
+      core-js@<3.4 is no longer maintained and not recommended for usage due to
+      the number of issues. Because of the V8 engine whims, feature detection in
+      old core-js versions could cause a slowdown up to 100x even if nothing is
+      polyfilled. Please, upgrade your dependencies to the actual version of
+      core-js.
     dev: true
     requiresBuild: true
     resolution:
@@ -6698,7 +6710,8 @@ packages:
     resolution:
       integrity: sha512-8/sOawo8tJ4QOBX8YlQBMxL8+RLZfxMQOif9o0KUKTNTjMYElWPE0r/m5VNFxTRd0NSw8qSy8dajrwX4RYI1Hw==
   /flatten/1.0.3:
-    deprecated: flatten is deprecated in favor of utility frameworks such as lodash.
+    deprecated:
+      flatten is deprecated in favor of utility frameworks such as lodash.
     dev: true
     resolution:
       integrity: sha512-dVsPA/UwQ8+2uoFe5GHtiBMu48dWLTdsuEd7CKGlZlD78r1TTWBvDuFaFGKCo/ZfEr95Uk56vZoX86OsHkUeIg==
@@ -6836,7 +6849,9 @@ packages:
     dependencies:
       bindings: 1.5.0
       nan: 2.15.0
-    deprecated: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+    deprecated:
+      fsevents 1 will break on node v14+ and could be using insecure binaries.
+      Upgrade to fsevents 2.
     dev: true
     engines:
       node: '>= 4.0'
@@ -9189,7 +9204,9 @@ packages:
       prop-types: 15.8.1
       react: 17.0.1
       tiny-warning: 1.0.3
-    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+    deprecated:
+      Package no longer supported. Contact Support at
+      https://www.npmjs.com/support for more info.
     dev: false
     peerDependencies:
       prop-types: ^15.0.0
@@ -11087,14 +11104,18 @@ packages:
     resolution:
       integrity: sha1-nsYfeQSYdXB9aUFFlv2Qek1xHnM=
   /querystring/0.2.0:
-    deprecated: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+    deprecated:
+      The querystring API is considered Legacy. new code should use the
+      URLSearchParams API instead.
     dev: true
     engines:
       node: '>=0.4.x'
     resolution:
       integrity: sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
   /querystring/0.2.1:
-    deprecated: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+    deprecated:
+      The querystring API is considered Legacy. new code should use the
+      URLSearchParams API instead.
     dev: true
     engines:
       node: '>=0.4.x'
@@ -11730,7 +11751,9 @@ packages:
       '@babel/helper-module-imports': 7.16.7
       rollup: 1.32.1
       rollup-pluginutils: 2.8.2
-    deprecated: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-babel.
+    deprecated:
+      This package has been deprecated and is no longer maintained. Please use
+      @rollup/plugin-babel.
     dev: true
     peerDependencies:
       '@babel/core': 7 || ^7.0.0-rc.2
@@ -11818,7 +11841,9 @@ packages:
       micromatch: 3.1.10
       minimist: 1.2.5
       walker: 1.0.8
-    deprecated: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+    deprecated:
+      some dependency vulnerabilities fixed, support for node < 10 dropped, and
+      newer ECMAScript syntax/features added
     dev: true
     engines:
       node: 6.* || 8.* || >= 10.*
@@ -12955,7 +12980,9 @@ packages:
     engines:
       node: '>= 6'
     peerDependencies:
-      typescript: '>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta'
+      typescript:
+        '>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev
+        || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta'
     resolution:
       integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==
   /tty-browserify/0.0.0:
@@ -13245,7 +13272,10 @@ packages:
     resolution:
       integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
   /uuid/3.4.0:
-    deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+    deprecated:
+      Please upgrade  to version 7 or higher.  Older versions may use
+      Math.random() in certain circumstances, which is known to be
+      problematic.  See https://v8.dev/blog/math-random for details.
     dev: true
     hasBin: true
     resolution:

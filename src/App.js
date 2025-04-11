@@ -3,7 +3,7 @@ import {BrowserRouter, Route, Switch, Redirect} from 'react-router-dom'
 import Product from './components/Product'
 import LoginPage from './components/LoginPage'
 import HomePage from './components/HomePage'
-import NotFoundRoute from "./components/NotFoundRoute"
+import NotFoundRoute from './components/NotFoundRoute'
 import ProtectedRoute from './components/ProtectedRoute'
 
 const App = () => (
