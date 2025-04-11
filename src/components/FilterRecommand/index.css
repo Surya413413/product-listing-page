@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   gap: 1px;
-  
+
   position: relative;
 }
 
@@ -41,7 +41,7 @@
   cursor: pointer;
 }
 
-.products-list{
+.products-list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,11 +50,11 @@
 .sidepanal-items-container {
   display: flex;
 }
-.sidepanelhide{
+.sidepanelhide {
   cursor: pointer;
   color: balck;
 }
-.sidepanelshow{
+.sidepanelshow {
   cursor: pointer;
   color: blue;
 }
